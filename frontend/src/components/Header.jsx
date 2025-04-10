@@ -27,7 +27,7 @@ function Header() {
           <div className='flex flex-wrap justify-center gap-3 mt-16'>
             {
               Array(6).fill('').map((item, idx) => (
-                <img className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src= {idx % 2 === 0 ?  assets.sample_img_1 : assets.sample_img_2}key={idx} width={70} ></img>
+                <img className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-12' src= {idx % 2 === 0 ?  assets.sample_img_1 : assets.sample_img_2}key={idx} width={70} ></img>
               ))
             }
 

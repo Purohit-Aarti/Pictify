@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import {assets} from '../assets/assets.js'
 import { AppContext } from '../context/AppContext.jsx'
 
