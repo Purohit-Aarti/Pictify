@@ -8,7 +8,7 @@ function Steps() {
 
         <p className='text-lg text-gray-600 text-center'>Transform Words into stunning images</p>
 
-        <div className='space-y-4 w-full max-w-xl text-sm mt-5'>
+        <div className='space-y-4 w-full max-w-2xl text-sm mt-5'>
             {
                 stepsData.map((item, idx) => (
                     <div className='flex items-center gap-4 p-2 px-8 bg-white shadow-md rounded-lg cursor-pointer hover:scale-[1.02] transition-all duration-300' key={idx}>

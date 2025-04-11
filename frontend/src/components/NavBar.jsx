@@ -9,7 +9,7 @@ const NavBar = () => {
     const Navigate = useNavigate();
 
     return (
-        <div className='flex items-center justify-between py-4'>
+        <div className='flex items-center justify-between w-full overflow-hidden py-4'>
             <Link to='/' className='flex items-center'>
                 <img src={assets.logo} className='inline mr-2' />
                 <h1 className='inline m-0 font-bold text-3xl'>Pictify</h1>
